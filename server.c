@@ -6,11 +6,11 @@
 /*   By: eabourao <eabourao@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/09 18:37:57 by eabourao          #+#    #+#             */
-/*   Updated: 2025/02/13 19:57:46 by eabourao         ###   ########.fr       */
+/*   Updated: 2025/02/14 15:29:22 by eabourao         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "header.h"
+#include "header.h"
 
 void	handle_it(int sig, siginfo_t *info)
 {
@@ -37,17 +37,18 @@ void	handle_it(int sig, siginfo_t *info)
 	}
 }
 
-
-
-int	main()
+int	main(void)
 {
 	struct sigaction	sa;
+	pid_t				pid;
 
+	pid = getpid();
+	ft_putnbr_fd(pid, 1);
+	write(1, "\n", 1);
 	sa.sa_handler = handle_it;
 	sa.sa_flags = SA_SIGINFO;
 	sigaction(SIGUSR1, &sa, NULL);
 	sigaction(SIGUSR2, &sa, NULL);
-	printf("%d\n", getpid());
 	while (1)
 		sleep(1);
 }

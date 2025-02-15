@@ -1,0 +1,199 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 2,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 9,
+			"com.tldraw.shape.note": 8,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"x": 540.8528747558594,
+			"y": 92.61068725585938,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Lbyq2Lx88AgYuPwOcvIwF",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 119.72467803955078,
+				"text": "mini_talk",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 297.2821057353045,
+			"y": 163.79515133438997,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:pecc_VQck6qBAAV1nhgU4",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 832.1541748046875,
+				"text": "i do not know where to start this project like every other project\nbut i will try to understad where to start just from what i know\nso let's get to it; so first the function that we will work with;\nket's understand first what is a signal and what is a process,\nwhat i know for now is that a process is running program, and a\nsignal is just telling the process what to do. that is it,\n\nso a signal is a form of interprocess comunication, wich is basiccly the sharing of\ndata between two running processes,\nso i need to send a message between a client and a server, first what is a server\nbasically a server is a computer that shares information to other computers,\ncalled clients on a computer network\nwhat is a PID : a Pid is unique numerical identifier assigned to each running process \nin an operating sytem;\n\ni think this enough knloedge for this project, now we need to start the project,\nto start we need to understand the function that are given to us;\n\nwhat i know now that we only can send, 0's and 1's because segnals can only be 1 or\n0 so i have to make the bitwise operations to translate it to what i want to send,\n\nthe questions that i need to answer them later\nwhat is the type of functions that sa_handler can  take what are the elements inside\nthe sigaction structure, and what are the sigusr1 and 2 and is there some other types\nof signals, that is it,\n\n\nso there is some questions that we need to answer, like how does that bitwise works,\nwhat do the functions that you did actually do ??? and what is the flag that you added \nmean, and the elements in the sigaction struct actually do,",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a21SY",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 423.0500988826852,
+			"y": 821.4970500235255,
+			"lastActivityTimestamp": 1739544466947,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:font": "draw",
+				"tldraw:size": "l"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "move",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 762.7315063476562,
+				"h": 637.1527709960938
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.7280000448226929,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:pecc_VQck6qBAAV1nhgU4"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": -186.73718338863304,
+			"y": -288.41908556510543,
+			"z": 0.7371151042327255,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 295.5951926910732,
+			"y": 901.2375736439545,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:IL9CbZeZyp5s5YcoGMBH2",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "l",
+				"w": 839.595947265625,
+				"text": "this is supper important do not skip the \nquestions, and please delete this before you \npush !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3AOD",
+			"typeName": "shape"
+		}
+	]
+}
